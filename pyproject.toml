@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "keep-track"
+version = "0.1.0"
+description = "Keep Track is a project designed to help the transition from old school messy documents into their digitalize version."
+authors = ["mfranzon <franzonmarco94@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "keep_track"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+easyocr = {git = "https://github.com/JaidedAI/EasyOCR.git"}
+streamlit = "^1.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
