@@ -1,5 +1,7 @@
 # Keep Track
 
+![](image.png)
+
 Keep Track is a project designed to help the transition from old school messy documents into their digitalize version.
 
 1. **Personal** 
